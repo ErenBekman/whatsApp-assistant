@@ -1,0 +1,18 @@
+{
+  "name": "whatsappassistant",
+  "version": "1.0.0",
+  "description": "whatsappassistant",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "dev": "npx nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "puppeteer": "^16.2.0"
+  }
+}
