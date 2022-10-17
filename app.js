@@ -131,7 +131,7 @@ async function test() {
   const page = await initBrowser();
   await login(page);
   await addToCard(page);
-  //   await buy(page);
+  await buy(page);
   await property_check(page);
 }
 
